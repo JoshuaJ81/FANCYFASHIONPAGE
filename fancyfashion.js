@@ -44,7 +44,7 @@
 
 const item = document.querySelector('.button li a');
 item.addEventListener('click', function(){
-   alert('GOT IT!'); 
+   alert('WELCOME TO THE FANCY FASHION BRAND!'); 
 });
 
 item.addEventListener('mouseover', function(){
