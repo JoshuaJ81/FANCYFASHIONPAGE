@@ -56,29 +56,7 @@ item.addEventListener('mouseout', function(){
     item.innerText = 'CLICK HERE';
 });
 
-//trying onmouseover onmouseout with ae girl pic the colt steele way based on above mouseover/mouseout examples - it WORKED!
 
-const aeGirl = document.querySelector('#test1');
-
-
-aeGirl.addEventListener('mouseout', function(){
-aeGirl.src='./images/leatherleggings.jpg';
-
-});
-
-aeGirl.addEventListener('mouseover', function(){
-    aeGirl.src='./images/leatherleggingswalk.jpg';
-    });
-
-    const aeGirls = document.querySelector('#test2'); 
-
-    aeGirls.addEventListener('mouseover', function(){
-        aeGirls.src='./images/llpractice2.jpg';
-    })
-
-    aeGirls.addEventListener('mouseout', function(){
-        aeGirls.src='./images/llpractice.jpg';
-        });
 
 //Colt mentioned the 'scroll', where things will change based on scrolling. He also mentioned "throttling" whereas the action attached
 //to the scroll will only act once the scroll goes only so far. SCROLLING could be the way to change menu bar background color for 
@@ -120,3 +98,61 @@ document.querySelector('#changeher').src='./images/fashion week2.jpg';
         document.querySelector('#changeher2').src='./images/welldressed2.jpg';
         
             }
+
+
+//MOBILE MENU BUTTON
+
+//const mobileMenu = document.querySelector('.mobile-button');
+
+//const menuItems = document.querySelector('.drop-down');
+
+
+function toggleMenu() {
+
+    //const mobileMenu = document.querySelector('.mobile-button');
+
+    const menuItems = document.querySelector('.drop-down');
+
+        if(menuItems.style.display === 'none') {
+            menuItems.style.display = 'block';
+                 
+        }
+
+            else {
+                menuItems.style.display = 'none';
+            }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//function showMenu() {
+    //menuItems.style.display ='block';
+    
+    //}
+    
+    //mobileMenu.addEventListener('click', showMenu);
+
+    
+//function hideMenu() {
+    //menuItems.style.remove ='none';
+//}
+
+//mobileMenu.addEventListener('click', hideMenu);
+
+
+    
+    
+    

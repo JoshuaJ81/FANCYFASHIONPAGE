@@ -560,6 +560,20 @@ section {
 
 @media (max-width: 63rem) {
 
+	.site-header-nav {
+		position: fixed;
+		background-color: #ffffff;
+		top:0;
+		left:0;
+		
+		width:100%;
+		height: auto;
+		padding: 0.125rem 5.625rem;
+		box-sizing: border-box;
+		z-index: 10;
+		}
+
+
 .mobile-button {
 	background-color: rgb(226, 38, 132);
 	border: solid 0.20rem rgba(240, 231, 231, .3);
@@ -580,7 +594,7 @@ section {
 
 /*=== chose a position of relative for drop down to center dropdown menu listing ==*/
 .drop-down {
-	display: none;
+	display: block;
 	position: relative;
 	background-color: rgba(240, 231, 231, .3);
 	min-width: 4rem;
@@ -588,12 +602,16 @@ section {
 	margin-top: 0.75rem;
 	}
 
+	.drop-down {
+		display: none;
+	}
+
   
 
 	.drop-down a {
 	color: #000;
 	padding: 0.15rem 1.40rem;
-	
+	font-size: 0.75rem;
 	display: block;
 	}
 
@@ -608,9 +626,9 @@ section {
 	
 	}
 
-	.center-mobile-menu:hover .drop-down {
+	/*.center-mobile-menu:hover .drop-down {
 	display: block;
-	}
+	}*/
 
 	.center-mobile-menu:hover .mobile-button {
 	background-color: rgb(15, 235, 216);
