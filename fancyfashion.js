@@ -75,11 +75,11 @@ function newLa(){
 
 
 function newGirl() {
-    document.querySelector('#changeher').src='./images/fashion week1.jpg';
+    document.querySelector('#changeher').src='./images/makeupon.jpg';
     }
     
 function oldGirl() {
-document.querySelector('#changeher').src='./images/fashion week2.jpg';
+document.querySelector('#changeher').src='./images/makeupgood.jpg';
     }
 
     function newChick() {
