@@ -125,7 +125,7 @@ line-height: 0.2rem;
 
 
 #hero {
-background-image: url('../images/richebony.jpg');
+background-image: url('../images/peter-nguyen-jVDbmshAl4o-unsplash.jpg');
 justify-content: flex-start;
 align-items: flex-start;
 background-repeat: no-repeat;
@@ -149,7 +149,7 @@ padding-top: 12rem;
 	border-radius: 3rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 6.63rem;
+	margin-top: 15rem;
 	display: inline-block;	
 	justify-content: center;
 	justify-items: center;
@@ -160,7 +160,7 @@ padding-top: 12rem;
 	font-family: Montserrat;
 	font-size: 2rem;
 	font-weight: 100;
-	color: rgb(17, 16, 16);
+	color: #ffffff;
 	padding-top: 1.5rem;
 	text-align: center;
 	margin-bottom: 1rem;
@@ -171,7 +171,7 @@ padding-top: 12rem;
 .introduction h2 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 1.2rem;
-	color: rgb(17, 16, 16);
+	color: #ffffff;
 	font-weight:400;
 	text-align: center;
 	line-height: 3rem;
@@ -698,6 +698,27 @@ section {
 		color: rgb(15, 235, 216);
 		
 		}
+
+}
+
+/*=== Media Query for Introduction =====*/
+@media (min-width: 350px) and (max-width: 768px) {
+
+	#hero .hero-container {
+
+        position:relative;
+        padding: 1.5rem 2.5rem;
+        border: solid 3px rgb(226, 38, 132);
+        background-color: rgba(240, 231, 231, .3);
+		border-radius: 3rem;
+        margin-left: auto;
+		margin-right: auto;
+        margin-top: 6.63rem;
+        display: inline-block;	
+        justify-content: center;
+        justify-items: center;
+	
+	}
 
 }
 
