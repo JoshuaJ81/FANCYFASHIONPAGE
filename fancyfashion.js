@@ -99,6 +99,42 @@ document.querySelector('#changeher').src='./images/makeupgood.jpg';
         
             }
 
+            function modelOne() {
+                document.querySelector('#model1').src='./images/guilherme-caetano-VmCEzzojY5I-unsplash.jpg';
+            }
+
+            function modelOneFlip() {
+                document.querySelector('#model1').src='./images/guilherme-caetano-StEv2KQbNl0-unsplash.jpg';
+            }
+
+
+                function modelTwo() {
+                    document.querySelector('#model2').src='./images/jernej-graj-GY5gWDimEyg-unsplash.jpg';
+                }
+
+                function modelTwoFlip() {
+                    document.querySelector('#model2').src='./images/jernej-graj-ES5jnyvFg20-unsplash.jpg';
+                }
+
+
+                    function modelThree() {
+                        document.querySelector('#model3').src='./images/anniespratt2.jpg';
+                    }
+
+                    function modelThreeFlip() {
+                        document.querySelector('#model3').src='./images/anniespratt1.jpg';
+                    }
+
+
+                            function modelFour() {
+                                document.querySelector('#model4').src='./images/rikonavt-jwkVc8Jw1Ck-unsplash.jpg';
+                            }
+            
+                            function modelFourFlip() {
+                                document.querySelector('#model4').src='./images/rikonavt-HQjfrvdTfak-unsplash.jpg';
+                            }
+
+
 
 //MOBILE MENU BUTTON
 
