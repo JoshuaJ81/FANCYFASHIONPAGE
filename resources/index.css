@@ -863,13 +863,13 @@ section {
 
 }
 
-@media (max-width: 67em) {
+@media (max-width: 490px) {
 
     .blog h3{
         
         margin-left: 0.75rem;
         margin-right: 0.75rem;
-        font-size: 0.80rem;
+        font-size: 0.90rem;
     }
 }
 
