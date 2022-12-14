@@ -56,7 +56,19 @@ item.addEventListener('mouseout', function(){
     item.innerText = 'CLICK HERE';
 });
 
+//JS for changing nav header color on scroll
 
+const nav = document.querySelector('.site-header-nav');
+
+window.addEventListener('scroll', ()=> {
+
+    if (window.scrollY >= 50) {
+        nav.classList.add('active-nav');
+    } else {
+        nav.classList.remove('active-nav');
+    }
+
+})
 
 //Colt mentioned the 'scroll', where things will change based on scrolling. He also mentioned "throttling" whereas the action attached
 //to the scroll will only act once the scroll goes only so far. SCROLLING could be the way to change menu bar background color for 
